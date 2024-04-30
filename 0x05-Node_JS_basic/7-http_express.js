@@ -6,8 +6,8 @@ const port = 1245;
 const app = express();
 
 app.get('/', (req, res) => {
-    res.writeHead(200, { 'Content-Type': 'text/plain' });
-    res.end('Hello Holberton School!');
+  res.writeHead(200, { 'Content-Type': 'text/plain' });
+  res.end('Hello Holberton School!');
 })
 
 app.get('/students', (req, res) => {
